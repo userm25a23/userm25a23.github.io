@@ -36,7 +36,6 @@ body {
 }
 .contenedor-planos-angulos li {
     width: 90%;
-    height: 90dvh;
 
     margin: 2rem 0;
 
@@ -46,6 +45,7 @@ body {
     box-shadow: -7px 7px  20px var(--color-letra);
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     
@@ -57,6 +57,8 @@ body {
 .contenedor-planos-angulos img {
     width: 300px;
     height: 500px;
+
+    margin: 10px;
 }
 
 #fin {
