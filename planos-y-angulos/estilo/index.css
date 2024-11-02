@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    --bg-color: #000;
+    --color-letra: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: x-large;
+    text-transform: capitalize;
+
+    background-color: var(--bg-color);
+    color: var(--color-letra);
+
+}
+
+.contenedor-planos-angulos {
+    width: 90dvw;
+
+    margin: 5rem 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.contenedor-planos-angulos h2 {
+    font-size: xx-large;
+}
+.contenedor-planos-angulos li {
+    width: 90%;
+    height: 90dvh;
+
+    margin: 2rem 0;
+
+    border: solid 2px #000;
+    border-radius: 30px;
+
+    box-shadow: -7px 7px  20px var(--color-letra);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contenedor-planos-angulos li p {
+    padding: 20px;
+    box-sizing: border-box;
+}
+.contenedor-planos-angulos img {
+    width: 300px;
+    height: 500px;
+}
+
+#fin {
+    color: #0f0;
+    font-size: xx-large;
+}
+#contacto {
+    margin: 2rem;
+}
+#contacto h3 {
+    margin: 1rem;
+}
+#contacto li {
+    color: #f00;
+    margin: .5rem;
+    font-size: x-large;
+}

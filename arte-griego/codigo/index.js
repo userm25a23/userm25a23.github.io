@@ -1,0 +1,1 @@
+alert("Este proyecto es para ver en una pc no en celular.");
