@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    background-image: url("./imagenes/fondo.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100dvw 100dvh;
+    background-attachment: fixed;
+    
+    overflow-x: hidden;
+
+    position: sticky;
+    top: 0;
+
+    color: #333;
+    --color-basico:  #fff9;
+    --color-span: #000
+}
+span {
+    color: var(--color-span);
+    font-size: x-large;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.titulos {
+    font-size: xx-large;
+    font-weight: 900;
+}
+header {
+    width: 100dvw;
+    text-align: center;
+    background-color: var(--color-basico);
+
+    position: sticky;
+    top: 0;
+
+    padding: 1rem;
+}
+
+
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenedor-secciones {
+    width: 60dvw;
+    background-color: transparent;
+}
+section {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--color-basico);
+    padding: 1rem;
+
+}
+section div {
+    min-width: 30%;
+}
+section img {
+    width: 100%;
+    height: 100%;
+}
+p {
+    padding: 1rem;
+    font-size: large;
+}
+img {
+    height: 100%;
+}
+
+
+
+@media (max-width: 750px) {
+    #contenedor-secciones {
+        width: 100%;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+    body {
+        background-size: 150dvw 150dvh;
+    }
+    
+}
