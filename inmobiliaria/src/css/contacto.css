@@ -1,0 +1,42 @@
+
+
+
+
+#seccion-informacion-contacto {
+    background-color: #007;
+    width: 100dvw;
+}
+
+
+#seccion-informacion-contacto div {
+    width: 80%;
+    margin: auto;
+    padding: 5rem 0;
+}
+
+#seccion-informacion-contacto h2 {
+    color: var(--color-basico);
+    margin: 1rem 0;
+}
+
+#seccion-informacion-contacto p {
+    color: var(--color-border);
+    font-size: large;
+}
+#seccion-informacion-contacto span {
+    color: var(--color-basico);
+}
+
+
+#seccion-informacion-contacto a {
+    color: #55f;
+    text-decoration: underline;
+    padding: 0 5px;
+    letter-spacing: 2px;
+}
+
+#seccion-informacion-contacto a:hover {
+    color: var(--color-basico);
+    text-decoration: underline;
+    padding: 0 5px;
+}
